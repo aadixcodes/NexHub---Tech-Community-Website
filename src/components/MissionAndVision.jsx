@@ -12,7 +12,7 @@ const MissionVision = () => {
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
-          {/* Card 1 */}
+          {/* Card 1 */} 
           <div className="flex flex-col items-center text-center space-y-4">
             <div className="bg-white/10 p-4 rounded-xl">
               <Image 
