@@ -36,9 +36,6 @@ const GoalsObjectives = () => {
               <p className="text-gray-600 text-base mb-4">
                 To create an inclusive, vibrant space where individuals can connect, share ideas, and collaborate. By providing platforms for group discussions, meet-ups, and virtual networking events, NexHub aims to build lasting connections among members.
               </p>
-              <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full text-sm font-medium">
-                Learn More
-              </button>
             </div>
           </div>
 
@@ -61,9 +58,6 @@ const GoalsObjectives = () => {
               <p className="text-gray-600 text-base mb-4">
                 To empower members with access to educational resources, workshops, and skill-building sessions, helping them stay ahead in their personal and professional lives. NexHub seeks to cultivate a culture of continuous growth and improvement.
               </p>
-              <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full text-sm font-medium">
-                Learn More
-              </button>
             </div>
           </div>
 
@@ -87,9 +81,6 @@ const GoalsObjectives = () => {
               <p className="text-gray-600 text-base mb-4">
                 To facilitate a collaborative environment where members can work together on projects, brainstorm new ideas, and support each other in achieving goals. NexHub encourages creative problem-solving and innovation to tackle shared challenges.
               </p>
-              <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full text-sm font-medium">
-                Learn More
-              </button>
             </div>
           </div>
 
@@ -112,9 +103,6 @@ const GoalsObjectives = () => {
               <p className="text-gray-600 text-base mb-4">
                 To provide mentorship programs, career resources, and personal development opportunities that help members reach their full potential. NexHub is committed to helping individuals succeed both personally and professionally through goal-oriented guidance.
               </p>
-              <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full text-sm font-medium">
-                Learn More
-              </button>
             </div>
           </div>
         </div>
