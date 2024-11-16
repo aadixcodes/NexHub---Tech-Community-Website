@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <main className="container mx-auto px-6 md:px-12 lg:px-16">
+    <main className="container mx-auto px-6 md:px-12 lg:px-16 mt-[5rem] sm:mt-[8rem]">
       <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12 py-12 md:py-20">
         {/* Left Content */}
         <div className="w-full md:w-1/2 flex flex-col space-y-6 text-center md:text-left">

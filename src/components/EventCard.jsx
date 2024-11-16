@@ -36,7 +36,7 @@ import React from "react";
 const EventCard = () => {
   return (
     <div className="container mx-auto p-6">
-      <h1 className="text-5xl font-bold text-center text-gray-800">
+      <h1 className="text-4xl md:text-5xl font-bold text-center text-gray-800">
         Upcoming Event
       </h1>
       <div className="container mx-auto px-4 md:px-12 lg:px-16 py-16">

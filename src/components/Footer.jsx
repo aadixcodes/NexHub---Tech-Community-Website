@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import { FaInstagram, FaWhatsapp, FaLinkedin, FaEnvelope, FaFacebook, FaTwitter, FaYoutube, FaPinterest } from 'react-icons/fa';
+import { AiFillInstagram } from "react-icons/ai";
+import { RiWhatsappFill } from "react-icons/ri";
 
 const Footer = () => {
   return (
@@ -14,7 +16,7 @@ const Footer = () => {
           </div>
           <div className="flex space-x-6 items-center">
             <Link 
-              href="https://www.instagram.com" 
+              href="https://www.instagram.com/nexhubcommunity/?utm_source=ig_web_button_share_sheet" 
               target="_blank"
               className="text-gray-200 hover:text-white transition-colors"
               aria-label="Instagram"
@@ -22,7 +24,7 @@ const Footer = () => {
               <FaInstagram size={24} />
             </Link>
             <Link 
-              href="https://wa.me" 
+              href="https://api.whatsapp.com/send?phone=6266061914&text=Hello!%20I%20want%20to%20know%20about...%20" 
               target="_blank"
               className="text-gray-200 hover:text-white transition-colors"
               aria-label="WhatsApp"
@@ -30,14 +32,14 @@ const Footer = () => {
               <FaWhatsapp size={24} />
             </Link>
             <Link 
-              href="mailto:info@nexhub.com"
+              href="mailto:nexhub.contact@gmail.com"
               className="text-gray-200 hover:text-white transition-colors"
               aria-label="Email"
             >
               <FaEnvelope size={24} />
             </Link>
             <Link 
-              href="https://www.linkedin.com" 
+              href="#" 
               target="_blank"
               className="text-gray-200 hover:text-white transition-colors"
               aria-label="LinkedIn"
@@ -58,12 +60,12 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-gray-200 hover:text-white transition-colors">
+                <Link href="/aboutus" className="text-gray-200 hover:text-white transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="text-gray-200 hover:text-white transition-colors">
+                <Link href="/eventandmeetups" className="text-gray-200 hover:text-white transition-colors">
                   Events & Meetups
                 </Link>
               </li>
@@ -79,7 +81,7 @@ const Footer = () => {
             <h3 className="text-lg text-center font-semibold mb-4">Resources</h3>
             <ul className="space-y-2 text-center">
               <li>
-                <Link href="/blog" className="text-gray-200 hover:text-white transition-colors">
+                <Link href="/contactus" className="text-gray-200 hover:text-white transition-colors">
                   FAQs
                 </Link>
               </li>
@@ -89,12 +91,12 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/support" className="text-gray-200 hover:text-white transition-colors">
+                <Link href="/contactus" className="text-gray-200 hover:text-white transition-colors">
                   Support
                 </Link>
               </li>
               <li>
-                <Link href="/privacy" className="text-gray-200 hover:text-white transition-colors">
+                <Link href="/feedbackandsuggestions" className="text-gray-200 hover:text-white transition-colors">
                   Feedback
                 </Link>
               </li>
@@ -106,38 +108,38 @@ const Footer = () => {
             <ul className="space-y-2 text-center">
               <li>
                 <Link 
-                  href="https://www.facebook.com" 
+                  href="https://api.whatsapp.com/send?phone=6266061914&text=Hello!%20I%20want%20to%20know%20about...%20" 
                   target="_blank"
                   className="text-gray-200 hover:text-white transition-colors inline-flex items-center gap-2"
                 >
-                  <FaFacebook size={16} /> Facebook
+                  <RiWhatsappFill size={16} /> Whatsapp
                 </Link>
               </li>
               <li>
                 <Link 
-                  href="https://twitter.com" 
+                  href="mailto:nexhub.contact@gmail.com" 
                   target="_blank"
                   className="text-gray-200 hover:text-white transition-colors inline-flex items-center gap-2"
                 >
-                  <FaTwitter size={16} /> Twitter
+                  <FaEnvelope size={16} /> Mail
                 </Link>
               </li>
               <li>
                 <Link 
-                  href="https://www.youtube.com" 
+                  href="https://www.instagram.com/nexhubcommunity/?utm_source=ig_web_button_share_sheet" 
                   target="_blank"
                   className="text-gray-200 hover:text-white transition-colors inline-flex items-center gap-2"
                 >
-                  <FaYoutube size={16} /> YouTube
+                  <AiFillInstagram size={16} /> Instagram
                 </Link>
               </li>
               <li>
                 <Link 
-                  href="https://www.pinterest.com" 
+                  href="#" 
                   target="_blank"
                   className="text-gray-200 hover:text-white transition-colors inline-flex items-center gap-2"
                 >
-                  <FaPinterest size={16} /> Pinterest
+                  <FaLinkedin size={16} /> Linkedin
                 </Link>
               </li>
             </ul>

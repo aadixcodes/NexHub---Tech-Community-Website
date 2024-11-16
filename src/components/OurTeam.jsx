@@ -109,7 +109,7 @@ const OurTeam = () => {
   return (
     <div className="mx-auto px-4 container py-8 text-gray-800">
       <div className="text-center flex flex-col justify-center items-center py-12">
-        <h1 className="text-5xl font-bold text-black-600">Meet the Visionaries Behind NexHub</h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-black-600">Meet the Visionaries Behind NexHub</h1>
         <p className="text-lg mt-4 max-w-5xl">
           At NexHub, our core team represents the driving force behind innovation, collaboration, and success. Each member brings unique expertise, passion, and dedication to creating solutions that make a difference. Together, we're shaping the future, one step at a time.
         </p>
