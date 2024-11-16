@@ -65,9 +65,9 @@ const EventCard = () => {
               quo mollitia, iusto hic nam quidem quisquam, dolor iure est sequi
               praesentium omnis.
             </p>
-            <button className="bg-white hover:bg-gray-300 text-blue-800 font-bold px-6 py-2 rounded-full  transition duration-300 shadow-lg">
+            <a href='/eventandmeetups' className="bg-white hover:bg-gray-300 cursor-pointer text-blue-800 font-bold px-6 py-2 rounded-full  transition duration-300 shadow-lg">
               View All Previous Events
-            </button>
+            </a>
           </div>
         </div>
       </div>

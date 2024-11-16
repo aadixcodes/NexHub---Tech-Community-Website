@@ -70,39 +70,39 @@ const Navbar = () => {
             height={45} 
             className="mr-3"
           />
-          <span className="text-3xl font-bold tracking-tight">NEXHUB</span>
+          <span className="text-3xl font-bold text-gray-800 tracking-tight"><a href="/">NEXHUB</a></span>
         </div>
         
         <nav className="hidden md:flex items-center space-x-8 mx-8">
           <Link 
-            href="#" 
-            className="text-gray-600 hover:text-gray-900 text-lg font-medium transition-colors duration-200"
-          >
-            Blog
-          </Link>
-          <Link 
-            href="#" 
-            className="text-gray-600 hover:text-gray-900 text-lg font-medium transition-colors duration-200"
-          >
-            For Developers
-          </Link>
-          <Link 
-            href="#" 
+            href="/aboutus" 
             className="text-gray-600 hover:text-gray-900 text-lg font-medium transition-colors duration-200"
           >
             About Us
           </Link>
           <Link 
-            href="#" 
+            href="/eventandmeetups" 
             className="text-gray-600 hover:text-gray-900 text-lg font-medium transition-colors duration-200"
           >
-            FAQ
+            Events
           </Link>
           <Link 
-            href="#" 
+            href="" 
             className="text-gray-600 hover:text-gray-900 text-lg font-medium transition-colors duration-200"
           >
-            Resources
+            FAQs
+          </Link>
+          <Link 
+            href="/contactus" 
+            className="text-gray-600 hover:text-gray-900 text-lg font-medium transition-colors duration-200"
+          >
+            Contact Us
+          </Link>
+          <Link 
+            href="/feedbackandsuggestions" 
+            className="text-gray-600 hover:text-gray-900 text-lg font-medium transition-colors duration-200"
+          >
+            Feedback
           </Link>
         </nav>
         

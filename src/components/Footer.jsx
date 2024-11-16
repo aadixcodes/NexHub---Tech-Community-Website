@@ -9,8 +9,8 @@ const Footer = () => {
         {/* First Row - Logo and Social Icons */}
         <div className="flex flex-col md:flex-row justify-between items-center mb-8 gap-6">
           <div className="text-center md:text-left">
-            <h2 className="text-2xl font-bold">NexHub Community</h2>
-            <p className="text-gray-200">Connecting people, building community.</p>
+            <h2 className="text-3xl font-bold">NexHub</h2>
+            <p className="text-gray-200">Connect, Learn & Grow.</p>
           </div>
           <div className="flex space-x-6 items-center">
             <Link 
@@ -50,8 +50,8 @@ const Footer = () => {
         {/* Second Row - Navigation Links */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mb-8">
           <div className="text-center md:text-left">
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
-            <ul className="space-y-2">
+            <h3 className="text-lg text-center font-semibold mb-4">Quick Links</h3>
+            <ul className="text-center space-y-2">
               <li>
                 <Link href="/" className="text-gray-200 hover:text-white transition-colors">
                   Home
@@ -64,28 +64,28 @@ const Footer = () => {
               </li>
               <li>
                 <Link href="/services" className="text-gray-200 hover:text-white transition-colors">
-                  Services
+                  Events & Meetups
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-gray-200 hover:text-white transition-colors">
-                  Contact
+                <Link href="/eventsgallery" className="text-gray-200 hover:text-white transition-colors">
+                  Gallery
                 </Link>
               </li>
             </ul>
           </div>
 
           <div className="text-center md:text-left">
-            <h3 className="text-lg font-semibold mb-4">Resources</h3>
-            <ul className="space-y-2">
+            <h3 className="text-lg text-center font-semibold mb-4">Resources</h3>
+            <ul className="space-y-2 text-center">
               <li>
                 <Link href="/blog" className="text-gray-200 hover:text-white transition-colors">
-                  Blog
+                  FAQs
                 </Link>
               </li>
               <li>
                 <Link href="/faqs" className="text-gray-200 hover:text-white transition-colors">
-                  FAQs
+                  Contact Us
                 </Link>
               </li>
               <li>
@@ -95,15 +95,15 @@ const Footer = () => {
               </li>
               <li>
                 <Link href="/privacy" className="text-gray-200 hover:text-white transition-colors">
-                  Privacy Policy
+                  Feedback
                 </Link>
               </li>
             </ul>
           </div>
 
           <div className="text-center md:text-left">
-            <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
-            <ul className="space-y-2">
+            <h3 className="text-lg text-center font-semibold mb-4">Follow Us</h3>
+            <ul className="space-y-2 text-center">
               <li>
                 <Link 
                   href="https://www.facebook.com" 
@@ -146,7 +146,7 @@ const Footer = () => {
 
         {/* Third Row - Copyright */}
         <div className="text-center text-gray-200 border-t border-gray-500 pt-8">
-          <p>&copy; {new Date().getFullYear()} NexHub Community. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} NexHub. All rights reserved.</p>
         </div>
       </div>
     </footer>

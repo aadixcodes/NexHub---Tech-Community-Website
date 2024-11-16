@@ -228,9 +228,9 @@ className="absolute top-0 w-full h-full object-cover object-top transition-trans
       </div>
 
       <div className="text-center mt-12">
-        <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full transition-colors">
+        <a href='/nexhubteam' className="bg-blue-600 hover:bg-blue-700 cursor-pointer text-white font-bold py-2 px-4 rounded-full transition-colors">
           View Organisers
-        </button>
+        </a>
       </div>
     </div>
   );
