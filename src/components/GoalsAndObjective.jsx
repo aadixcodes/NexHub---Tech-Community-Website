@@ -6,10 +6,10 @@ const GoalsObjectives = () => {
       <div className="max-w-[1100px] mx-auto">
         {/* Header Section */}
         <div className="text-center mb-8">
-          <h1 className="text-4xl md:text-4xl font-bold mb-4">
+          <h1 className="text-4xl text-gray-900 md:text-5xl font-bold mb-4">
             Our Goals and Objectives
           </h1>
-          <p className="text-gray-600 text-base md:text-lg max-w-2xl mx-auto">
+          <p className="text-gray-600 text-base md:text-lg max-w-4xl mx-auto">
             Together. We believe in the power of collective knowledge, shared experiences, and mutual support. Here's how our goals and objectives drive us toward building a thriving and collaborative community:
           </p>
         </div>
@@ -30,7 +30,7 @@ const GoalsObjectives = () => {
               </div>
             </div>
             <div className="order-2 md:order-2 flex flex-col items-center md:items-start text-center md:text-left">
-              <h2 className="text-xl md:text-2xl font-bold mb-3">
+              <h2 className="text-xl md:text-2xl text-gray-900 font-bold mb-3">
                 Foster Meaningful Connections
               </h2>
               <p className="text-gray-600 text-base mb-4">
@@ -55,7 +55,7 @@ const GoalsObjectives = () => {
               </div>
             </div>
             <div className="order-2 md:order-1 flex flex-col items-center md:items-start text-center md:text-left">
-              <h2 className="text-xl md:text-2xl font-bold mb-3">
+              <h2 className="text-xl md:text-2xl text-gray-900 font-bold mb-3">
                 Promote Lifelong Learning
               </h2>
               <p className="text-gray-600 text-base mb-4">
@@ -81,7 +81,7 @@ const GoalsObjectives = () => {
               </div>
             </div>
             <div className="order-2 md:order-2 flex flex-col items-center md:items-start text-center md:text-left">
-              <h2 className="text-xl md:text-2xl font-bold mb-3">
+              <h2 className="text-xl md:text-2xl text-gray-900 font-bold mb-3">
                 Encourage Collaboration and Innovation
               </h2>
               <p className="text-gray-600 text-base mb-4">
@@ -106,7 +106,7 @@ const GoalsObjectives = () => {
               </div>
             </div>
             <div className="order-2 md:order-1 flex flex-col items-center md:items-start text-center md:text-left">
-              <h2 className="text-xl md:text-2xl font-bold mb-3">
+              <h2 className="text-xl md:text-2xl text-gray-900 font-bold mb-3">
                 Support Personal and Professional Growth
               </h2>
               <p className="text-gray-600 text-base mb-4">

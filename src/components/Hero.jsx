@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12 py-12 md:py-20">
         {/* Left Content */}
         <div className="w-full md:w-1/2 flex flex-col space-y-6 text-center md:text-left">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+          <h1 className="text-4xl text-gray-900 md:text-5xl lg:text-6xl font-bold leading-tight">
             <span>Nexhub</span> <br />
             <span className="text-blue-600">Where Developers</span> <br />
             Connect, Learn & <br />
