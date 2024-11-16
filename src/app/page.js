@@ -4,6 +4,7 @@ import MissionVision from "@/components/MissionAndVision";
 import GoalsObjectives from "@/components/GoalsAndObjective";
 import OurTeam from "@/components/OurTeam";
 import EventCard from "@/components/EventCard";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
     <GoalsObjectives />
     <OurTeam />
     <EventCard />
+    <Footer />
     </>
   );
 }

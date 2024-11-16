@@ -16,7 +16,7 @@ const MissionVision = () => {
           <div className="flex flex-col items-center text-center space-y-4">
             <div className="bg-white/10 p-4 rounded-xl">
               <Image 
-                src="/Assets/OtherImages/empowerment.png"
+                src="/Assets/OtherImages/empowermentsvg.svg"
                 alt="24-hour match icon"
                 width={64}
                 height={64}
@@ -33,7 +33,7 @@ const MissionVision = () => {
           <div className="flex flex-col items-center text-center space-y-4">
             <div className="bg-white/10 p-4 rounded-xl">
               <Image 
-                src="/Assets/OtherImages/innovation.png"
+                src="/Assets/OtherImages/innovationsvg.svg"
                 alt="Custom matching icon"
                 width={70}
                 height={70}
@@ -50,7 +50,7 @@ const MissionVision = () => {
           <div className="flex flex-col items-center text-center space-y-4">
             <div className="bg-white/10 p-4 rounded-xl">
               <Image 
-                src="/Assets/OtherImages/collaboration.png"
+                src="/Assets/OtherImages/collaborationn.svg"
                 alt="Zero risk icon"
                 width={64}
                 height={64}
