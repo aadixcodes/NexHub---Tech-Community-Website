@@ -36,7 +36,7 @@ const Navbar = () => {
             About Us
           </Link>
           <Link 
-            href="/eventandmeetups" 
+            href="/events" 
             className="text-gray-600 hover:text-gray-900 text-lg font-medium transition-colors duration-200"
           >
             Events
@@ -93,7 +93,7 @@ const Navbar = () => {
             About Us
           </Link>
           <Link 
-            href="/eventandmeetups" 
+            href="/events" 
             className="text-gray-600 hover:text-gray-900 text-lg font-medium py-2 transition-colors duration-200"
             onClick={() => setMenuOpen(false)}
           >
