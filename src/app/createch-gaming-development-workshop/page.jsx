@@ -112,7 +112,7 @@
 
 "use client";
 import Image from "next/image";
-import { FaGlobe, FaRupeeSign } from "react-icons/fa";
+import { FaGlobe, FaRupeeSign, FaCalendarAlt  } from "react-icons/fa";
 import GamingDevOrganisers from "@/components/GamingDevOrganisers";
 
 const CreatechGamingDevelopmentWorkshop = () => {
@@ -133,6 +133,12 @@ const CreatechGamingDevelopmentWorkshop = () => {
                 <div className="flex items-center gap-1 mt-1 sm:mt-0">
                   <FaRupeeSign className="text-gray-600" />
                   <span>Entry Fee: ₹150</span>
+                </div>
+              </div>
+              <div className="text-gray-600 mb-4 flex flex-col sm:flex-row items-start sm:items-center gap-2">
+                <div className="flex items-center gap-1">
+                  <FaCalendarAlt  className="text-gray-600" />
+                  <span>Date: 30/Nov/2024</span>
                 </div>
               </div>
               <div className="flex flex-wrap items-center mb-4 gap-4">
