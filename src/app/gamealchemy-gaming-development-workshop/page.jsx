@@ -58,9 +58,9 @@ const GameAlchemyGamingDevelopmentWorkshop = () => {
                 </div>
               </div>
               <div className="flex flex-wrap items-center mb-4 gap-4">
-                <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md font-semibold transition-colors duration-200">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdyS5cGXmg1U2yVw4_6o3bZEsC4ha3XkEcsNq_2eKr1o5X6Xw/viewform" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md font-semibold transition-colors duration-200">
                   Register Now
-                </button>
+                </a>
                 <div className="flex items-center">
                   <Image
                     src="/Assets/OtherImages/participate.jpg"
