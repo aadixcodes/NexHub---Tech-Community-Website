@@ -62,12 +62,12 @@ const Events = () => {
       id: 1,
       tag: "New",
       category: "Game Development",
-      title: "Master the Art of Game Development in Our Intercollege Workshop!",
+      title: "GameAlchemy: Ignite Your Passion for Game Design",
       description:
-        "Dive into the world of game development with our intercollege workshop.....",
+        "Explore the thrilling world of game development with seminars designed to inspire, educate, and empower!.....",
       date: "November 30, 2024",
-      fee: "Free",
-      joinedCount: 422,
+      fee: "₹99",
+      joinedCount: 62,
       bannerImage: "/Assets/EventPage/GamingDevelopment/banner.jpg",
       type: "all",
     },
@@ -169,7 +169,7 @@ const Events = () => {
 
                 {/* Register Button */}
                 <a
-                  href="/createch-gaming-development-workshop"
+                  href="/gamealchemy-gaming-development-workshop"
                   className="w-full block text-center bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition-colors duration-200"
                 >
                   Register now

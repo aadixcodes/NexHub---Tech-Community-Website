@@ -61,9 +61,9 @@ const Navbar = () => {
           </Link>
         </nav>
         
-        <button className="hidden md:block bg-blue-500 hover:bg-blue-600 text-white px-6 py-2.5 rounded-lg text-lg font-medium transition-colors duration-200">
+        <a href='/gamealchemy-gaming-development-workshop' className="hidden md:block bg-blue-500 hover:bg-blue-600 text-white px-6 py-2.5 rounded-lg text-lg font-medium transition-colors duration-200">
           Register
-        </button>
+        </a>
         
         {/* Mobile Menu Button */}
         <button 
@@ -120,9 +120,9 @@ const Navbar = () => {
           >
             Feedback
           </Link>
-          <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2.5 rounded-lg text-lg font-medium transition-colors duration-200 mt-2" onClick={() => setMenuOpen(false)}>
+          <a href='/gamealchemy-gaming-development-workshop' className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2.5 rounded-lg text-lg font-medium transition-colors duration-200 mt-2" onClick={() => setMenuOpen(false)}>
             Register
-          </button>
+          </a>
         </nav>
       </div>
     </div>
