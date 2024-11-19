@@ -62,7 +62,7 @@ const Events = () => {
       id: 1,
       tag: "New",
       category: "Game Development",
-      title: "GameAlchemy: Ignite Your Passion for Game Design",
+      title: "GameAlchemy: Ignite Your Passion for Game Development Workshop",
       description:
         "Explore the thrilling world of game development with seminars designed to inspire, educate, and empower!.....",
       date: "November 30, 2024",

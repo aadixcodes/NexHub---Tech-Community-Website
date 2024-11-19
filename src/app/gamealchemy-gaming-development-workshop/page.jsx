@@ -12,7 +12,7 @@ const GameAlchemyGamingDevelopmentWorkshop = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <h1 className="text-2xl font-bold mb-4">
-              GameAlchemy: Ignite Your Passion for Game Design
+              GameAlchemy: Ignite Your Passion for Game Development Workshop
               </h1>
               {/* <div className="text-gray-600 mb-4 flex flex-col sm:flex-col items-start sm:items-center gap-2">
                 <div className="flex items-center gap-1">
