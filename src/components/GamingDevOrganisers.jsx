@@ -9,7 +9,9 @@ const GamingDevOrganisers = () => {
       name: 'Mr. Mayank Pande',
       description: 'CEO - Carina Softlabs Inc & Techy Mau Game Studios',
       image: '/Assets/EventPage/GamingDevelopment/mayankpandey.jfif',
-      linkedin: 'https://www.linkedin.com/in/mayank-pande?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
+      linkedin: 'https://www.linkedin.com/in/mayank-pande?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      instagram: 'https://www.instagram.com/theupthrust/',
+      facebook: 'https://www.facebook.com/TheUpThrustOfficial'
     }
   ];
 
@@ -100,12 +102,12 @@ const GamingDevOrganisers = () => {
                 <h2 className="text-xl font-bold text-gray-900">{speaker.name}</h2>
                 <p className="text-gray-600 mt-1">{speaker.description}</p>
                 <div className="flex space-x-4 mt-3">
-                  {/* <a href="#" className="text-blue-500 hover:text-blue-600 transition duration-300">
+                  <a href={speaker.instagram} target='_blank' className="text-blue-500 hover:text-blue-600 transition duration-300">
                     <AiFillInstagram  className="w-5 h-5" />
                   </a>
-                  <a href="#" className="text-blue-700 hover:text-blue-800 transition duration-300">
+                  <a href={speaker.facebook} target='_blank' className="text-blue-700 hover:text-blue-800 transition duration-300">
                     <FaFacebook className="w-5 h-5" />
-                  </a> */}
+                  </a>
                   <a href={speaker.linkedin} target='_blank' className="text-blue-600 hover:text-blue-700 transition duration-300">
                     <FaLinkedin className="w-5 h-5" />
                   </a>
