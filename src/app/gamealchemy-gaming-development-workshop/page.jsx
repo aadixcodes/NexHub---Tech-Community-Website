@@ -12,7 +12,7 @@ const GameAlchemyGamingDevelopmentWorkshop = () => {
   const [couponError, setCouponError] = useState("");
 
   const handleCouponApplication = () => {
-    if (couponCode.toUpperCase() === "SVVVXNEX") {
+    if (couponCode.toUpperCase() === "ABHYU") {
       setCouponApplied(true);
       setCouponError("");
     } else {
