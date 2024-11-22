@@ -1,10 +1,27 @@
 "use client";
 import Image from "next/image";
+import { useState } from "react";
 import { FaGlobe, FaRupeeSign, FaCalendarAlt } from "react-icons/fa";
 import GamingDevOrganisers from "@/components/GamingDevOrganisers";
 import Collaborators from "@/components/Collaborators";
 
 const GameAlchemyGamingDevelopmentWorkshop = () => {
+  const [couponCode, setCouponCode] = useState("");
+  const [couponApplied, setCouponApplied] = useState(false);
+  const [showCouponInput, setShowCouponInput] = useState(false);
+  const [couponError, setCouponError] = useState("");
+
+  const handleCouponApplication = () => {
+    if (couponCode.toUpperCase() === "SVVVXNEX") {
+      setCouponApplied(true);
+      setCouponError("");
+    } else {
+      setCouponApplied(false);
+      setCouponError("Invalid coupon code");
+    }
+    setCouponCode("");
+  };
+
   return (
     <>
       <div className="bg-gray-50 min-h-screen mt-[5rem] py-8">
@@ -12,35 +29,34 @@ const GameAlchemyGamingDevelopmentWorkshop = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <h1 className="text-2xl font-bold mb-4">
-              GameAlchemy: Ignite Your Passion for Game Development Workshop
+                GameAlchemy: Ignite Your Passion for Game Development Workshop
               </h1>
-              {/* <div className="text-gray-600 mb-4 flex flex-col sm:flex-col items-start sm:items-center gap-2">
-                <div className="flex items-center gap-1">
-                  <FaGlobe className="text-gray-600" />
-                  <span>10/2, 2nd Floor, Shree Mahadeo House, near Hotel Surya, Sriram Nagar, South Tukoganj, Indore, Madhya Pradesh 452001</span>
-                </div> 
-                <div className="flex items-center gap-1 mt-1 sm:mt-0">
-                  <FaRupeeSign className="text-gray-600" />
-                  <span>Entry Fee: ₹99</span>
-                </div>
-              </div> */}
               <div className="text-gray-600 mb-4 flex flex-col items-start gap-4">
                 {/* Address Section */}
                 <div className="flex items-start gap-2 w-full sm:w-auto">
                   <FaGlobe className="text-gray-600 mt-1 text-[15px]" />
                   <span className="text-sm sm:text-base text-left ">
-                    10/2, 2nd Floor, Shree Mahadeo House, <br /> near Hotel Surya,
-                    Sriram Nagar, <br /> South Tukoganj, Indore, Madhya Pradesh 452001
+                    10/2, 2nd Floor, Shree Mahadeo House, <br /> near Hotel
+                    Surya, Sriram Nagar, <br /> South Tukoganj, Indore, Madhya
+                    Pradesh 452001
                   </span>
                 </div>
-
                 {/* Entry Fee Section */}
                 <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 w-full sm:w-auto">
                   <div className="flex items-center gap-1">
                     <FaRupeeSign className="text-gray-600" />
                     <span className="text-sm sm:text-base font-medium">
-                      Early Bird Offer:{" "}
-                      <span className="text-green-600 font-bold">₹99</span>
+                      {couponApplied ? (
+                        <>
+                          Discounted Price:{" "}
+                          <span className="text-green-600 font-bold">₹49</span>
+                        </>
+                      ) : (
+                        <>
+                          Early Bird Offer:{" "}
+                          <span className="text-green-600 font-bold">₹99</span>
+                        </>
+                      )}
                     </span>
                   </div>
                   <span className="text-sm sm:text-base text-gray-500 line-through">
@@ -49,18 +65,90 @@ const GameAlchemyGamingDevelopmentWorkshop = () => {
                 </div>
               </div>
 
-              {/* break */}
-
+              {/* Date and Registration Section */}
               <div className="text-gray-600 mb-4 flex flex-col sm:flex-row items-start sm:items-center gap-2">
                 <div className="flex items-center gap-1">
                   <FaCalendarAlt className="text-gray-600" />
                   <span>Date: 30/Nov/2024</span>
                 </div>
               </div>
+              {/* Coupon code section */}
               <div className="flex flex-wrap items-center mb-4 gap-4">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdyS5cGXmg1U2yVw4_6o3bZEsC4ha3XkEcsNq_2eKr1o5X6Xw/viewform" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md font-semibold transition-colors duration-200">
-                  Register Now
-                </a>
+                <div className="flex items-center gap-4">
+                  {couponApplied ? (
+                    <a
+                      href="https://forms.gle/LvBRAveqQvDogm5x9"
+                      className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md font-semibold transition-colors duration-200"
+                    >
+                      Register Now (Discounted)
+                    </a>
+                  ) : (
+                    <a
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSdyS5cGXmg1U2yVw4_6o3bZEsC4ha3XkEcsNq_2eKr1o5X6Xw/viewform"
+                      className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md font-semibold transition-colors duration-200"
+                    >
+                      Register Now
+                    </a>
+                  )}
+                  <button
+                    onClick={() => setShowCouponInput(!showCouponInput)}
+                    className="text-blue-800 hover:underline text-sm"
+                  >
+                    Apply Coupon Code
+                  </button>
+                </div>
+                {/* {showCouponInput && (
+                  <div className="flex items-center gap-2">
+                    <input
+                      type="text"
+                      placeholder="Enter Coupon Code"
+                      value={couponCode}
+                      onChange={(e) => setCouponCode(e.target.value)}
+                      className="border border-gray-300 px-2 py-1 rounded-md text-sm"
+                    />
+                    <button
+                      onClick={handleCouponApplication}
+                      className="bg-green-500 hover:bg-green-600 text-white px-3 py-1 rounded-md text-sm transition-colors duration-200"
+                    >
+                      Apply
+                    </button>
+                  </div>
+                )}
+
+                {couponApplied && (
+                  <div className="text-green-600 text-sm font-medium">
+                    Coupon code applied successfully!
+                  </div>
+                )} */}
+{showCouponInput && (
+        <div className="flex flex-col gap-2">
+          <div className="flex items-center gap-2">
+            <input
+              type="text"
+              placeholder="Enter Coupon Code"
+              value={couponCode}
+              onChange={(e) => setCouponCode(e.target.value)}
+              className="border border-gray-300 px-2 py-1 rounded-md text-sm"
+            />
+            <button
+              onClick={handleCouponApplication}
+              className="bg-green-500 hover:bg-green-600 text-white px-3 py-1 rounded-md text-sm transition-colors duration-200"
+            >
+              Apply
+            </button>
+          </div>
+          {couponError && (
+            <div className="text-red-600 text-sm font-medium">
+              {couponError}
+            </div>
+          )}
+          {couponApplied && (
+            <div className="text-green-600 text-sm font-medium">
+              Coupon code applied successfully!
+            </div>
+          )}
+        </div>
+      )}
                 <div className="flex items-center">
                   <Image
                     src="/Assets/OtherImages/participate.jpg"
@@ -198,7 +286,7 @@ const GameAlchemyGamingDevelopmentWorkshop = () => {
               5. Unity Game Development: Simplifying Complexities
             </h4>
             <ul className="list-disc list-inside text-gray-700 mb-4">
-              <li>Introduction to Unity: A Beginner’s Guide</li>
+              <li>Introduction to Unity: A Beginner's Guide</li>
               <li>Creating Your First Game</li>
               <li>Exploring 2D, 3D, VR, and AR Development with Unity</li>
               <li>Inspiring Stories of Unity Developers</li>
@@ -209,7 +297,7 @@ const GameAlchemyGamingDevelopmentWorkshop = () => {
             </h2>
             <h2 className="text-xl font-semibold mb-1">Goodies 🎉</h2>
             <p className="text-gray-700 mb-1">
-              We value your participation! Here’s what’s in store for you:
+              We value your participation! Here's what's in store for you:
             </p>
             <ul className="list-disc list-inside text-gray-700 mb-5">
               <li>🎽 T-Shirts</li>
