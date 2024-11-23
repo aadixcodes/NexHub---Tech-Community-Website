@@ -97,7 +97,7 @@ const EventCard = () => {
             </h2>
             <p className="text-[13px] md:text-[15px] opacity-90 mb-1">
               {" "}
-              <i> Nov 30, 2024</i>
+              <i> Dec 7, 2024</i>
             </p>
             <p className="text-[13px] md:text-[15px] opacity-90 mb-1">
               {" "}

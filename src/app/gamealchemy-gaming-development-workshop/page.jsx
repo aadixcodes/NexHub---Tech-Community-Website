@@ -69,7 +69,7 @@ const GameAlchemyGamingDevelopmentWorkshop = () => {
               <div className="text-gray-600 mb-4 flex flex-col sm:flex-row items-start sm:items-center gap-2">
                 <div className="flex items-center gap-1">
                   <FaCalendarAlt className="text-gray-600" />
-                  <span>Date: 30/Nov/2024</span>
+                  <span>Date: 7/Dec/2024</span>
                 </div>
               </div>
               {/* Coupon code section */}
