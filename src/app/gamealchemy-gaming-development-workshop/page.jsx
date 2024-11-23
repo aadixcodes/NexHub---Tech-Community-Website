@@ -11,17 +11,35 @@ const GameAlchemyGamingDevelopmentWorkshop = () => {
   const [showCouponInput, setShowCouponInput] = useState(false);
   const [couponError, setCouponError] = useState("");
 
+  // const handleCouponApplication = () => {
+  //   if (couponCode.toUpperCase() === "ABHYU") {
+  //     setCouponApplied(true);
+  //     setCouponError("");
+  //   } else {
+  //     setCouponApplied(false);
+  //     setCouponError("Invalid coupon code");
+  //   }
+  //   setCouponCode("");
+  // };
+
+
   const handleCouponApplication = () => {
-    if (couponCode.toUpperCase() === "ABHYU") {
+    const validCoupons = {
+      ABHYU: 49,  // Discounted price for ABHYU
+      DHW50: 49,  // Discounted price for DHW50
+    };
+  
+    const normalizedCode = couponCode.toUpperCase(); // Convert to uppercase for case-insensitivity
+    if (validCoupons[normalizedCode] !== undefined) {
       setCouponApplied(true);
       setCouponError("");
+      setDiscountedPrice(validCoupons[normalizedCode]); // Set the discounted price based on coupon
     } else {
       setCouponApplied(false);
       setCouponError("Invalid coupon code");
     }
     setCouponCode("");
   };
-
   return (
     <>
       <div className="bg-gray-50 min-h-screen mt-[5rem] py-8">
