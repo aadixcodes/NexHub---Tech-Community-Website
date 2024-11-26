@@ -176,7 +176,7 @@ const GameAlchemyGamingDevelopmentWorkshop = () => {
                     className="rounded-full"
                   />
                   <span className="ml-2 text-gray-600 whitespace-nowrap">
-                    +62 Participants registered
+                    +96 Participants registered
                   </span>
                 </div>
               </div>
