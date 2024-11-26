@@ -16,30 +16,30 @@ const GamingDevOrganisers = () => {
   ];
 
   const organisers = [
-    {
-      id: 1,
-      name: 'Naman Sisodiya',
-      image: '/Assets/MembersImages/naman.jpg',
-      instagram: 'https://www.instagram.com/naman29.ai?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
-      github: '',
-      linkedin: 'https://www.linkedin.com/in/naman-sisodiya-7632622aa'
-    },
-    {
-      id: 2,
-      name: 'Vaidic Tiwari',
-      image: '/Assets/MembersImages/vaidic.jpg',
-      instagram: 'https://www.instagram.com/vaidic_t?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
-      github: '',
-      linkedin: 'https://www.linkedin.com/in/vaidictiwari'
-    },
-    {
-      id: 3,
-      name: 'Shivam Sharma',
-      image: '/Assets/MembersImages/shivam.jpg',
-      instagram: 'https://www.instagram.com/shivamsharma.py?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
-      github: '',
-      linkedin: 'https://www.linkedin.com/in/shivam-sharma-ab489721b'
-    },
+    // {
+    //   id: 1,
+    //   name: 'Naman Sisodiya',
+    //   image: '/Assets/MembersImages/naman.jpg',
+    //   instagram: 'https://www.instagram.com/naman29.ai?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+    //   github: '',
+    //   linkedin: 'https://www.linkedin.com/in/naman-sisodiya-7632622aa'
+    // },
+    // {
+    //   id: 2,
+    //   name: 'Vaidic Tiwari',
+    //   image: '/Assets/MembersImages/vaidic.jpg',
+    //   instagram: 'https://www.instagram.com/vaidic_t?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+    //   github: '',
+    //   linkedin: 'https://www.linkedin.com/in/vaidictiwari'
+    // },
+    // {
+    //   id: 3,
+    //   name: 'Shivam Sharma',
+    //   image: '/Assets/MembersImages/shivam.jpg',
+    //   instagram: 'https://www.instagram.com/shivamsharma.py?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+    //   github: '',
+    //   linkedin: 'https://www.linkedin.com/in/shivam-sharma-ab489721b'
+    // },
     {
       id: 4,
       name: 'Aditya Patel',

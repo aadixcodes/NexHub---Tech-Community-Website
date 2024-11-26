@@ -25,15 +25,15 @@ const GameAlchemyGamingDevelopmentWorkshop = () => {
 
   const handleCouponApplication = () => {
     const validCoupons = {
-      ABHYU: 49,  // Discounted price for ABHYU
-      DHW50: 49,  // Discounted price for DHW50
+      ABHYU: 49, 
+      DHW50: 49,  
     };
   
-    const normalizedCode = couponCode.toUpperCase(); // Convert to uppercase for case-insensitivity
+    const normalizedCode = couponCode.toUpperCase(); 
     if (validCoupons[normalizedCode] !== undefined) {
       setCouponApplied(true);
       setCouponError("");
-      setDiscountedPrice(validCoupons[normalizedCode]); // Set the discounted price based on coupon
+      setDiscountedPrice(validCoupons[normalizedCode]); 
     } else {
       setCouponApplied(false);
       setCouponError("Invalid coupon code");
