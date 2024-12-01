@@ -67,7 +67,7 @@ const Events = () => {
         "Explore the thrilling world of game development with seminars designed to inspire, educate, and empower!.....",
       date: "December 7, 2024",
       fee: "₹99",
-      joinedCount: 62,
+      joinedCount: 115,
       bannerImage: "/Assets/EventPage/GamingDevelopment/banner.jpg",
       type: "all",
     },
