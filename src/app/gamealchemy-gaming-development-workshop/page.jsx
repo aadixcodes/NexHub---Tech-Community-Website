@@ -66,12 +66,12 @@ const GameAlchemyGamingDevelopmentWorkshop = () => {
                     <span className="text-sm sm:text-base font-medium">
                       {couponApplied ? (
                         <>
-                          Discounted Price:{" "}
+                          Discounted Fee:{" "}
                           <span className="text-green-600 font-bold">₹49</span>
                         </>
                       ) : (
                         <>
-                          Early Bird Offer:{" "}
+                          Registration fee:{" "}
                           <span className="text-green-600 font-bold">₹99</span>
                         </>
                       )}
@@ -115,29 +115,6 @@ const GameAlchemyGamingDevelopmentWorkshop = () => {
                     Apply Coupon Code
                   </button>
                 </div>
-                {/* {showCouponInput && (
-                  <div className="flex items-center gap-2">
-                    <input
-                      type="text"
-                      placeholder="Enter Coupon Code"
-                      value={couponCode}
-                      onChange={(e) => setCouponCode(e.target.value)}
-                      className="border border-gray-300 px-2 py-1 rounded-md text-sm"
-                    />
-                    <button
-                      onClick={handleCouponApplication}
-                      className="bg-green-500 hover:bg-green-600 text-white px-3 py-1 rounded-md text-sm transition-colors duration-200"
-                    >
-                      Apply
-                    </button>
-                  </div>
-                )}
-
-                {couponApplied && (
-                  <div className="text-green-600 text-sm font-medium">
-                    Coupon code applied successfully!
-                  </div>
-                )} */}
 {showCouponInput && (
         <div className="flex flex-col gap-2">
           <div className="flex items-center gap-2">
@@ -176,7 +153,7 @@ const GameAlchemyGamingDevelopmentWorkshop = () => {
                     className="rounded-full"
                   />
                   <span className="ml-2 text-gray-600 whitespace-nowrap">
-                    +96 Participants registered
+                    +145 Participants registered
                   </span>
                 </div>
               </div>
@@ -318,7 +295,6 @@ const GameAlchemyGamingDevelopmentWorkshop = () => {
               We value your participation! Here's what's in store for you:
             </p>
             <ul className="list-disc list-inside text-gray-700 mb-5">
-              <li>🎽 T-Shirts</li>
               <li>🔑 Key Chains</li>
               <li>📒 Notebooks</li>
               <li>🎁 Surprise Gifts</li>
