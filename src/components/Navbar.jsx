@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <div className="fixed top-0 left-0 right-0 z-50">
-      <header className="flex justify-between items-center px-6 md:px-12 lg:px-16 py-6 bg-white shadow-sm">
+      <header className="flex justify-between items-center px-6 md:px-12 lg:px-16 py-2 bg-white shadow-sm">
         <div className="flex items-center">
           <Image 
             src="/Assets/OtherImages/logo.svg" 
@@ -42,10 +42,10 @@ const Navbar = () => {
             Events
           </Link>
           <Link 
-            href="/faq" 
+            href="/events-image-gallery" 
             className="text-gray-600 hover:text-gray-900 text-lg font-medium transition-colors duration-200"
           >
-            FAQs
+            Event Gallery
           </Link>
           <Link 
             href="/contactus" 
@@ -61,7 +61,7 @@ const Navbar = () => {
           </Link>
         </nav>
         
-        <a href='/gamealchemy-gaming-development-workshop' className="hidden md:block bg-blue-500 hover:bg-blue-600 text-white px-6 py-2.5 rounded-lg text-lg font-medium transition-colors duration-200">
+        <a href='/gamealchemy-gaming-development-workshop' className="hidden md:block bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-lg text-lg font-medium transition-colors duration-200">
           Register
         </a>
         
@@ -100,11 +100,11 @@ const Navbar = () => {
             Events
           </Link>
           <Link 
-            href="/" 
+            href="/events-image-gallery" 
             className="text-gray-600 hover:text-gray-900 text-lg font-medium py-2 transition-colors duration-200"
             onClick={() => setMenuOpen(false)}
           >
-            FAQs
+           Event Gallery
           </Link>
           <Link 
             href="/contactus" 
@@ -120,7 +120,7 @@ const Navbar = () => {
           >
             Feedback
           </Link>
-          <a href='/gamealchemy-gaming-development-workshop' className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2.5 rounded-lg text-lg font-medium transition-colors duration-200 mt-2" onClick={() => setMenuOpen(false)}>
+          <a href='/gamealchemy-gaming-development-workshop' className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-lg text-lg font-medium transition-colors duration-200 mt-2" onClick={() => setMenuOpen(false)}>
             Register
           </a>
         </nav>

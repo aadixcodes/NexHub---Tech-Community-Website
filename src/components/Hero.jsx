@@ -15,8 +15,8 @@ const Hero = () => {
           <p className="text-gray-600 text-lg md:text-xl lg:text-2xl max-w-2xl mx-auto md:mx-0">
             Join a community built for growth, innovation, and connection. We bring developers together through workshops, hackathons, meetups, and coding events designed to inspire learning and collaboration. Whether you're a beginner or an expert, our events offer something for everyone—helping you build skills, expand your network, and shape the future of technology.
           </p>
-          <a href='/gamealchemy-gaming-development-workshop' className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg md:text-xl font-medium transition-colors duration-200 w-fit mx-auto md:mx-0">
-            Register For Workshop
+          <a href='/join-our-team' className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg md:text-xl font-medium transition-colors duration-200 w-fit mx-auto md:mx-0">
+            Join Our Team
           </a>
         </div>
 
