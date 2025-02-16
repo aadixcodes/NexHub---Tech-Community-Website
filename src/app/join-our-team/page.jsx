@@ -93,7 +93,7 @@ const JoinOurTeam = () => {
       <section className="py-20 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-t from-white/50 to-transparent" />
         <div className="container mx-auto px-4 relative">
-          <div className="max-w-3xl mx-auto bg-white rounded-2xl shadow-xl p-10 relative">
+          <div className="max-w-5xl mx-auto bg-white rounded-2xl shadow-xl p-10 relative">
             <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/5 rounded-full blur-2xl" />
             <div className="absolute bottom-0 left-0 w-32 h-32 bg-blue-500/5 rounded-full blur-2xl" />
             
