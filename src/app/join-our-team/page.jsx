@@ -922,7 +922,7 @@ const JoinOurTeam = () => {
                 </div>
               </div>
 
-              {/* <div>
+              <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                   Share your projects here ( mp4 videos only ) ( optional )*
                 </label>
@@ -941,7 +941,7 @@ const JoinOurTeam = () => {
                           className="sr-only"
                           multiple
                           onChange={handleFileChange}
-                          accept=".pdf,.doc,.docx,.jpg,.jpeg,.png"
+                          accept="video/mp4,.pdf,.jpg,.jpeg,.png"
                         />
                       </label>
                       <p className="pl-1">or drag and drop</p>
@@ -961,8 +961,8 @@ const JoinOurTeam = () => {
                     )}
                   </div>
                 </div>
-              </div> */}
-              <div>
+              </div>
+              {/* <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                   Share your projects here ( mp4 videos or images only )
                 </label>
@@ -992,7 +992,7 @@ const JoinOurTeam = () => {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
