@@ -42,7 +42,7 @@ const Navbar = () => {
             Events
           </Link>
           <Link 
-            href="/events-image-gallery" 
+            href="/gallery" 
             className="text-gray-600 hover:text-gray-900 text-lg font-medium transition-colors duration-200"
           >
             Gallery
@@ -60,7 +60,7 @@ const Navbar = () => {
             Contact Us
           </Link>
           <Link 
-            href="/feedbackandsuggestions" 
+            href="/feedback-and-suggestions" 
             className="text-gray-600 hover:text-gray-900 text-lg font-medium transition-colors duration-200"
           >
             Feedback
@@ -106,11 +106,18 @@ const Navbar = () => {
             Events
           </Link>
           <Link 
-            href="/events-image-gallery" 
+            href="/gallery" 
             className="text-gray-600 hover:text-gray-900 text-lg font-medium py-2 transition-colors duration-200"
             onClick={() => setMenuOpen(false)}
           >
-           Event Gallery
+           Gallery
+          </Link>
+          <Link 
+            href="/our-team" 
+            className="text-gray-600 hover:text-gray-900 text-lg font-medium py-2 transition-colors duration-200"
+            onClick={() => setMenuOpen(false)}
+          >
+           Our Team
           </Link>
           <Link 
             href="/contactus" 
@@ -120,7 +127,7 @@ const Navbar = () => {
             Contact Us
           </Link>
           <Link 
-            href="/feedbackandsuggestions" 
+            href="/feedback-and-suggestions" 
             className="text-gray-600 hover:text-gray-900 text-lg font-medium py-2 transition-colors duration-200"
             onClick={() => setMenuOpen(false)}
           >
