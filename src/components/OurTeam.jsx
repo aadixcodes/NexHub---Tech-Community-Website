@@ -136,46 +136,73 @@ const teamMembers = [
   {
     name: "Naman Sisodiya",
     image: "/Assets/MembersImages/naman.jpg",
-    bgColor: "bg-yellow-500",
+    bgColor: "bg-blue-500",
     social: {
-      linkedin: "https://www.linkedin.com/in/naman-sisodiya-7632622aa",
-      instagram: "https://instagram.com/naman.sisodiya"
+      linkedin: "https://www.linkedin.com/in/naman-sisodiya-7632622aa/",
+      instagram: "https://www.instagram.com/naman29.ai/"
     }
   },
   {
     name: "Shivam Sharma",
     image: "/Assets/MembersImages/shivam.jpg",
-    bgColor: "bg-green-500",
+    bgColor: "bg-blue-500",
     social: {
       linkedin: "https://www.linkedin.com/in/shivam-sharma-ab489721b",
-      instagram: "https://instagram.com/shivam.sharma"
+      instagram: "https://www.instagram.com/shivamsharma.py/"
     }
   },
   {
     name: "Vaidic Tiwari",
     image: "/Assets/MembersImages/vaidic.jpg",
-    bgColor: "bg-teal-500",
+    bgColor: "bg-blue-500",
     social: {
       linkedin: "https://www.linkedin.com/in/vaidictiwari",
-      instagram: "https://instagram.com/vaidic.tiwari"
+      instagram: "https://www.instagram.com/vaidic_t/"
     }
   },
   {
     name: "Aditya Patel",
-    image: "/Assets/MembersImages/aditya.jpg",
+    image: "/Assets/MembersImages/adityaa.jpeg",
     bgColor: "bg-blue-500",
     social: {
-      linkedin: "https://www.linkedin.com/in/adityapatel09",
-      instagram: "https://instagram.com/aditya.patel"
+      linkedin: "https://www.linkedin.com/in/adityapatel09/",
+      instagram: "https://www.instagram.com/adityyyyya_01/"
     }
   },
   {
     name: "Shivani Rathore",
     image: "/Assets/MembersImages/shivani.jpg",
-    bgColor: "bg-red-500",
+    bgColor: "bg-blue-500",
     social: {
-      linkedin: "https://www.linkedin.com/in/shivani-rathore-697781310",
-      instagram: "https://instagram.com/shivani.rathore"
+      linkedin: "https://www.linkedin.com/in/shivani-rathore-697781310/",
+      instagram: "https://www.instagram.com/shivanniiiii.19/"
+    }
+  },
+  {
+    name: "Arnav Bhokre",
+    image: "/Assets/MembersImages/arnav.jpg",
+    bgColor: "bg-blue-500",
+    social: {
+      linkedin: "https://www.linkedin.com/in/arnav-bhokre-a09482250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.instagram.com/arnav_bhokre2813?igsh=MWl3bmw2bjd6MTlkNQ=="
+    }
+  },
+  {
+    name: "Shrey Patidar",
+    image: "/Assets/MembersImages/shrey.jpg",
+    bgColor: "bg-blue-500",
+    social: {
+      linkedin: "https://www.linkedin.com/in/shrey-patidar-586272213?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.instagram.com/patidar_ji_28?igsh=MTBvZXJ2eDhrNW5naA=="
+    }
+  },
+  {
+    name: "Mitali Rampurkar",
+    image: "/Assets/MembersImages/mitali.jpg",
+    bgColor: "bg-blue-500",
+    social: {
+      linkedin: "https://www.linkedin.com/in/mitali-rampurkar-8b18b4303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.instagram.com/mitali.2708__"
     }
   }
 ];
