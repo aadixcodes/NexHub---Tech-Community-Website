@@ -47,13 +47,7 @@ const JoinOurTeam = () => {
 
   const [selectedPosition, setSelectedPosition] = useState("");
 
-  // const handleChange = (e) => {
-  //   const { name, value } = e.target;
-  //   setFormData((prevData) => ({
-  //     ...prevData,
-  //     [name]: value,
-  //   }));
-  // };
+
   const handleChange = (e) => {
     const { name, type, checked, value } = e.target;
     setFormData((prevData) => ({
@@ -586,7 +580,7 @@ const JoinOurTeam = () => {
                     htmlFor="privacyPolicy"
                     className="text-sm text-gray-600"
                   >
-                    I have read and agree to the Privacy Policy and Terms &
+                    I have read and agree to the <a href="/privacy-policy"> <span className="text-blue-900"> Privacy & Policy </span></a>and Terms &
                     Conditions of NexHub *
                   </label>
                 </div>

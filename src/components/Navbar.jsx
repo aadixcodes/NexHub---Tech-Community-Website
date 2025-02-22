@@ -45,7 +45,13 @@ const Navbar = () => {
             href="/events-image-gallery" 
             className="text-gray-600 hover:text-gray-900 text-lg font-medium transition-colors duration-200"
           >
-            Event Gallery
+            Gallery
+          </Link>
+          <Link 
+            href="/our-team" 
+            className="text-gray-600 hover:text-gray-900 text-lg font-medium transition-colors duration-200"
+          >
+            Our Team
           </Link>
           <Link 
             href="/contactus" 
