@@ -47,7 +47,6 @@ const JoinOurTeam = () => {
 
   const [selectedPosition, setSelectedPosition] = useState("");
 
-
   const handleChange = (e) => {
     const { name, type, checked, value } = e.target;
     setFormData((prevData) => ({
@@ -432,6 +431,23 @@ const JoinOurTeam = () => {
                 </div>
               )}
 
+              {/* Conditional Technical Skills Field */}
+              {selectedPosition === "Web Developer" && (
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    Technical Skills (for Web Developers)*
+                  </label>
+                  <textarea
+                    name="technicalSkills"
+                    value={formData.technicalSkills}
+                    onChange={handleChange}
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
+                    rows="3"
+                    placeholder="List your technical skills and frameworks you're familiar with"
+                  />
+                </div>
+              )}
+
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                   Do you have any prior experience *
@@ -450,38 +466,26 @@ const JoinOurTeam = () => {
                 />
               </div>
 
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Project URL (Google Drive Link) *
-                  <span className="text-sm text-gray-500 block mt-1">
-                    Please upload your project to Google Drive and share a
-                    public link
-                  </span>
-                </label>
-                <input
-                  type="url"
-                  required
-                  name="projectURL"
-                  value={formData.projectURL}
-                  onChange={handleChange}
-                  placeholder="https://drive.google.com/..."
-                  className="w-full px-5 py-3 border-2 rounded-xl focus:ring-4 focus:ring-blue-300 focus:border-blue-500 transition-all"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Technical Skills (for Web Developers)*
-                </label>
-                <textarea
-                  name="technicalSkills"
-                  value={formData.technicalSkills}
-                  onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
-                  rows="3"
-                  placeholder="List your technical skills and frameworks you're familiar with"
-                />
-              </div>
+              {/* Conditional Project URL Field */}
+              {selectedPosition !== "Other" && (
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    Project URL (Google Drive Link) *
+                    <span className="text-sm text-gray-500 block mt-1">
+                      Please upload your project to Google Drive and share a public link
+                    </span>
+                  </label>
+                  <input
+                    type="url"
+                    required
+                    name="projectURL"
+                    value={formData.projectURL}
+                    onChange={handleChange}
+                    placeholder="https://drive.google.com/..."
+                    className="w-full px-5 py-3 border-2 rounded-xl focus:ring-4 focus:ring-blue-300 focus:border-blue-500 transition-all"
+                  />
+                </div>
+              )}
 
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -580,8 +584,12 @@ const JoinOurTeam = () => {
                     htmlFor="privacyPolicy"
                     className="text-sm text-gray-600"
                   >
-                    I have read and agree to the <a href="/privacy-policy"> <span className="text-blue-900"> Privacy & Policy </span></a>and Terms &
-                    Conditions of NexHub *
+                    I have read and agree to the{" "}
+                    <a href="/privacy-policy">
+                      {" "}
+                      <span className="text-blue-900"> Privacy & Policy </span>
+                    </a>
+                    and Terms & Conditions of NexHub *
                   </label>
                 </div>
 
